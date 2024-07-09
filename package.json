@@ -1,0 +1,24 @@
+{
+  "name": "trial-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serverless.js",
+  "scripts": {
+    "dev": "netlify dev" ,
+    "build": "netlify deploy --prod",
+    "list": "netlify functions:list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "netlify-cli": "^17.33.0",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^3.1.4",
+    "serverless-http": "^3.2.0"
+  }
+}
